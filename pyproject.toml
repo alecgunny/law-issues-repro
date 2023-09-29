@@ -1,0 +1,10 @@
+[tool.poetry]
+name = "law-repro"
+version = "0.0.1"
+description = ""
+authors = ["Alec Gunny"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+law = "^0.1"
+

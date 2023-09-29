@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "greeter"
+version = "0.0.1"
+description = "Dumb greeting app"
+authors = ["Alec Gunny"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+
+# some dependency that's sufficiently hard
+# to install that we don't want to rebuild
+# each time we change the lib
+tensorflow = "^2.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
